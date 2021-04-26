@@ -1,0 +1,23 @@
+server:
+  port: 8080
+  servlet.session.timeout: 60000
+  servlet.context-path: /baidu
+
+logging:
+  level:
+    root: error
+    com.yc: info
+    org.springframework: error
+  file:
+    path: ./logs
+    name: ycs.log
+# Spring配置
+
+#spring:
+#  devtools:
+#    restart:
+#      enabled: true
+
+yc:
+  tname: zy
+  age: 2

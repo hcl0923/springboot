@@ -1,0 +1,3 @@
+2021-04-24 21:20:45.265  INFO 18048 --- [restartedMain] com.yc.MybankApplication                 : Starting MybankApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 18048 (D:\三期\新三期\0404\springboot\mybank\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-04-24 21:20:45.269  INFO 18048 --- [restartedMain] com.yc.MybankApplication                 : No active profile set, falling back to default profiles: default
+2021-04-24 21:20:48.156  INFO 18048 --- [restartedMain] com.yc.MybankApplication                 : Started MybankApplication in 3.435 seconds (JVM running for 5.193)

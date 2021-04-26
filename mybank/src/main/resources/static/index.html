@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>银行ATM服务</title>
+    <style>
+        .err {
+            color: red;
+            font-weight: bold;
+        }
+
+        .point {
+            color: blue;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <form action="" method="post">
+        账号:<input type="text" name="accountId" v-model="accountId"/><br/>
+        操作金额:<input type="text" name="money" v-model="money"/><br/>
+        转入账号:<input type="text" name="inAccountId" v-model="inAccountId"/><br/>
+        <input type="button" value="开户" class="btn" @click="openAccounts()"/>
+        <input type="button" value="存款" class="btn" @click="deposite()"/>
+        <input type="button" value="取款" class="btn"/>
+        <input type="button" value="转账" class="btn"/>
+        <input type="button" value="查询" class="btn"/>
+        <div id="result" v-html="result"></div>
+    </form>
+</div>
+<script src="js/vue.js"></script>
+<script src="js/axios.js"></script>
+<script>
+    let vm = new Vue({
+        el: '#app',
+        data: {
+            accountId: "123",
+            money: 0.0,
+            inAccountId: "",
+            result: ""
+        }
+    });
+</script>
+
+</body>
+</html>

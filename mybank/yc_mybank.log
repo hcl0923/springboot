@@ -1,0 +1,15 @@
+2021-04-26 18:26:02.297  INFO 11504 --- [main] com.yc.mybank.MybankApplicationTests     : Starting MybankApplicationTests using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11504 (started by hp in D:\三期\新三期\0404\springboot\mybank)
+2021-04-26 18:26:02.301  INFO 11504 --- [main] com.yc.mybank.MybankApplicationTests     : No active profile set, falling back to default profiles: default
+2021-04-26 18:26:04.204  INFO 11504 --- [main] com.yc.mybank.MybankApplicationTests     : Started MybankApplicationTests in 2.205 seconds (JVM running for 3.073)
+2021-04-26 18:28:18.978  INFO 18364 --- [main] com.yc.mybank.MybankApplicationTests     : Starting MybankApplicationTests using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 18364 (started by hp in D:\涓夋湡\鏂颁笁鏈焅0404\springboot\mybank)
+2021-04-26 18:28:18.981  INFO 18364 --- [main] com.yc.mybank.MybankApplicationTests     : No active profile set, falling back to default profiles: default
+2021-04-26 18:28:21.080  INFO 18364 --- [main] com.yc.mybank.MybankApplicationTests     : Started MybankApplicationTests in 2.403 seconds (JVM running for 3.445)
+2021-04-26 18:30:07.307  INFO 9484 --- [main] com.yc.tx.biz.AccountServiceImplTest     : Starting AccountServiceImplTest using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 9484 (started by hp in D:\涓夋湡\鏂颁笁鏈焅0404\springboot\mybank)
+2021-04-26 18:30:07.309  INFO 9484 --- [main] com.yc.tx.biz.AccountServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-04-26 18:30:09.201  INFO 9484 --- [main] com.yc.tx.biz.AccountServiceImplTest     : Started AccountServiceImplTest in 2.281 seconds (JVM running for 3.191)
+2021-04-26 18:30:35.028  INFO 100 --- [main] com.yc.tx.biz.AccountServiceImplTest     : Starting AccountServiceImplTest using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 100 (started by hp in D:\涓夋湡\鏂颁笁鏈焅0404\springboot\mybank)
+2021-04-26 18:30:35.031  INFO 100 --- [main] com.yc.tx.biz.AccountServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-04-26 18:30:36.942  INFO 100 --- [main] com.yc.tx.biz.AccountServiceImplTest     : Started AccountServiceImplTest in 2.273 seconds (JVM running for 3.198)
+2021-04-26 18:31:30.919  INFO 2904 --- [main] com.yc.tx.biz.AccountServiceImplTest     : Starting AccountServiceImplTest using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 2904 (started by hp in D:\涓夋湡\鏂颁笁鏈焅0404\springboot\mybank)
+2021-04-26 18:31:30.921  INFO 2904 --- [main] com.yc.tx.biz.AccountServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-04-26 18:31:33.147  INFO 2904 --- [main] com.yc.tx.biz.AccountServiceImplTest     : Started AccountServiceImplTest in 2.556 seconds (JVM running for 3.444)

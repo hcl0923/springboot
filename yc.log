@@ -1,0 +1,19 @@
+2021-04-24 09:23:24.343  INFO 4788 --- [main] s.t.TestmystarterMysqlstarterApplication : Starting TestmystarterMysqlstarterApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 4788 (D:\三期\新三期\0404\springboot\testmystarter_mysqlstarter\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-04-24 09:23:24.346 DEBUG 4788 --- [main] s.t.TestmystarterMysqlstarterApplication : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-24 09:23:24.346  INFO 4788 --- [main] s.t.TestmystarterMysqlstarterApplication : No active profile set, falling back to default profiles: default
+2021-04-24 09:23:25.407  INFO 4788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-24 09:23:25.496  INFO 4788 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1085 ms
+2021-04-24 09:23:25.702  INFO 4788 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-24 09:23:25.906  INFO 4788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-24 09:23:25.918  INFO 4788 --- [main] s.t.TestmystarterMysqlstarterApplication : Started TestmystarterMysqlstarterApplication in 2.171 seconds (JVM running for 3.867)
+2021-04-24 09:25:40.789  INFO 12284 --- [main] c.y.s.springboot.SpringbootApplication   : Starting SpringbootApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 12284 (D:\三期\新三期\0404\springboot\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-04-24 09:25:40.794 DEBUG 12284 --- [main] c.y.s.springboot.SpringbootApplication   : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-24 09:25:40.794  INFO 12284 --- [main] c.y.s.springboot.SpringbootApplication   : No active profile set, falling back to default profiles: default
+2021-04-24 09:25:41.761  INFO 12284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-24 09:25:41.860  INFO 12284 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1013 ms
+2021-04-24 09:25:42.057  INFO 12284 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-24 09:25:42.231  INFO 12284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-24 09:25:42.242  INFO 12284 --- [main] c.y.s.springboot.SpringbootApplication   : Started SpringbootApplication in 2.018 seconds (JVM running for 3.746)
+2021-04-24 10:51:42.325  INFO 20848 --- [restartedMain] c.y.s.springboot.SpringbootApplication   : Starting SpringbootApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 20848 (D:\三期\新三期\0404\springboot\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-04-24 10:51:42.328  INFO 20848 --- [restartedMain] c.y.s.springboot.SpringbootApplication   : No active profile set, falling back to default profiles: default
+2021-04-24 10:51:43.965  INFO 20848 --- [restartedMain] c.y.s.springboot.SpringbootApplication   : Started SpringbootApplication in 2.25 seconds (JVM running for 3.988)
