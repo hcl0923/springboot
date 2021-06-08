@@ -1,0 +1,477 @@
+2021-05-09 01:10:24.090  WARN 14676 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m26s179ms730µs500ns).
+2021-05-09 08:19:52.022  WARN 14676 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h47m27s566ms686µs200ns).
+2021-05-09 09:06:58.443  WARN 14676 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m5s700ms190µs100ns).
+2021-05-09 10:27:27.945  WARN 14676 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m28s220ms936µs100ns).
+2021-05-09 17:16:14.269  INFO 5340 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 5340 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 17:16:14.271  INFO 5340 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 17:16:15.664  WARN 5340 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 17:16:17.596  WARN 5340 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 17:16:18.161  INFO 5340 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 4.321 seconds (JVM running for 5.457)
+2021-05-09 17:22:47.191  INFO 15436 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 15436 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 17:22:47.195  INFO 15436 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 17:22:48.580  WARN 15436 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 17:22:50.746  WARN 15436 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 17:22:51.274  INFO 15436 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 4.516 seconds (JVM running for 5.722)
+2021-05-09 17:23:12.544  INFO 8956 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 8956 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 17:23:12.546  INFO 8956 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 17:23:13.991  WARN 8956 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 17:23:15.838  WARN 8956 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 17:23:16.363  INFO 8956 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 4.171 seconds (JVM running for 5.277)
+2021-05-09 17:24:33.780  INFO 3412 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 3412 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 17:24:33.783  INFO 3412 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 17:24:35.164  WARN 3412 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 17:24:37.035  WARN 3412 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 17:24:37.532  INFO 3412 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 4.122 seconds (JVM running for 5.204)
+2021-05-09 17:36:02.494  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 17:36:02.498  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 17:36:03.647  WARN 11152 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 17:36:05.387  WARN 11152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 17:36:05.942  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 3.851 seconds (JVM running for 5.194)
+2021-05-09 17:44:24.773  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 17:44:24.773  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 17:44:25.245  WARN 11152 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 17:44:25.472  WARN 11152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 17:44:25.633  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 0.888 seconds (JVM running for 504.886)
+2021-05-09 17:44:27.173  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 17:44:27.174  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 17:44:27.432  WARN 11152 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 17:44:27.612  WARN 11152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 17:44:27.744  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 0.591 seconds (JVM running for 506.998)
+2021-05-09 17:45:17.517  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 17:45:17.518  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 17:45:17.905 ERROR 11152 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.TypeNotPresentException: Type com.yc.hcl.foodstore.food.bean.Resorder not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[na:1.8.0_221]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:1.8.0_221]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:1.8.0_221]
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:1.8.0_221]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:1.8.0_221]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:1.8.0_221]
+	at sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:108) ~[na:1.8.0_221]
+	at java.lang.Class.getGenericInterfaces(Class.java:913) ~[na:1.8.0_221]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:502) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.GenericTypeResolver.buildTypeVariableMap(GenericTypeResolver.java:271) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.GenericTypeResolver.getTypeVariableMap(GenericTypeResolver.java:248) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.data.util.ClassTypeInformation.getTypeVariableMap(ClassTypeInformation.java:115) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.util.ClassTypeInformation.getTypeVariableMap(ClassTypeInformation.java:104) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.util.ClassTypeInformation.<init>(ClassTypeInformation.java:93) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:324) ~[na:1.8.0_221]
+	at org.springframework.data.util.ClassTypeInformation.from(ClassTypeInformation.java:71) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.<init>(AbstractRepositoryMetadata.java:63) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.core.support.DefaultRepositoryMetadata.<init>(DefaultRepositoryMetadata.java:49) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.getMetadata(AbstractRepositoryMetadata.java:78) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.getRepositoryConfigurations(RepositoryConfigurationExtensionSupport.java:103) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:149) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:62) ~[spring-boot-autoconfigure-2.4.5.jar:2.4.5]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:396) ~[spring-context-5.3.6.jar:5.3.6]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[na:1.8.0_221]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:395) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:157) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) [spring-boot-2.4.5.jar:2.4.5]
+	at com.yc.hcl.foodstore.FoodstoreApplication.main(FoodstoreApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_221]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: java.lang.ClassNotFoundException: com.yc.hcl.foodstore.food.bean.Resorder
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_221]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[na:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_221]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_221]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_221]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.4.5.jar:2.4.5]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_221]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_221]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_221]
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) ~[na:1.8.0_221]
+	... 45 common frames omitted
+
+2021-05-09 17:51:21.326  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 17:51:21.327  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 17:51:21.521 ERROR 11152 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.TypeNotPresentException: Type com.yc.hcl.foodstore.food.bean.Resorder not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[na:1.8.0_221]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:1.8.0_221]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:1.8.0_221]
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:1.8.0_221]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:1.8.0_221]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:1.8.0_221]
+	at sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:108) ~[na:1.8.0_221]
+	at java.lang.Class.getGenericInterfaces(Class.java:913) ~[na:1.8.0_221]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:502) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.GenericTypeResolver.buildTypeVariableMap(GenericTypeResolver.java:271) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.GenericTypeResolver.getTypeVariableMap(GenericTypeResolver.java:248) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.data.util.ClassTypeInformation.getTypeVariableMap(ClassTypeInformation.java:115) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.util.ClassTypeInformation.getTypeVariableMap(ClassTypeInformation.java:104) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.util.ClassTypeInformation.<init>(ClassTypeInformation.java:93) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:324) ~[na:1.8.0_221]
+	at org.springframework.data.util.ClassTypeInformation.from(ClassTypeInformation.java:71) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.<init>(AbstractRepositoryMetadata.java:63) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.core.support.DefaultRepositoryMetadata.<init>(DefaultRepositoryMetadata.java:49) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.getMetadata(AbstractRepositoryMetadata.java:78) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.getRepositoryConfigurations(RepositoryConfigurationExtensionSupport.java:103) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:149) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:62) ~[spring-boot-autoconfigure-2.4.5.jar:2.4.5]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:396) ~[spring-context-5.3.6.jar:5.3.6]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[na:1.8.0_221]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:395) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:157) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) [spring-boot-2.4.5.jar:2.4.5]
+	at com.yc.hcl.foodstore.FoodstoreApplication.main(FoodstoreApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_221]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: java.lang.ClassNotFoundException: com.yc.hcl.foodstore.food.bean.Resorder
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_221]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[na:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_221]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_221]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_221]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.4.5.jar:2.4.5]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_221]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_221]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_221]
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) ~[na:1.8.0_221]
+	... 45 common frames omitted
+
+2021-05-09 17:51:22.983  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 17:51:22.983  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 17:51:23.310  WARN 11152 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 17:51:23.566  WARN 11152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 17:51:23.718  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 0.75 seconds (JVM running for 922.971)
+2021-05-09 18:04:13.825  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 18:04:13.825  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 18:04:14.243  WARN 11152 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 18:04:14.685  WARN 11152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 18:04:14.854  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 1.054 seconds (JVM running for 1694.107)
+2021-05-09 18:04:16.350  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 18:04:16.350  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 18:04:16.596  WARN 11152 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 18:04:16.764  WARN 11152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 18:04:16.891  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 0.557 seconds (JVM running for 1696.144)
+2021-05-09 18:05:32.442  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 18:05:32.442  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 18:05:33.193  WARN 11152 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 18:05:33.485  WARN 11152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 18:05:33.744  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 1.355 seconds (JVM running for 1772.997)
+2021-05-09 18:15:07.580  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 18:15:07.580  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 18:15:07.789 ERROR 11152 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.TypeNotPresentException: Type com.yc.hcl.foodstore.food.bean.Resorder not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[na:1.8.0_221]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:1.8.0_221]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:1.8.0_221]
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:1.8.0_221]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:1.8.0_221]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:1.8.0_221]
+	at sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:108) ~[na:1.8.0_221]
+	at java.lang.Class.getGenericInterfaces(Class.java:913) ~[na:1.8.0_221]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:502) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.GenericTypeResolver.buildTypeVariableMap(GenericTypeResolver.java:271) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.GenericTypeResolver.getTypeVariableMap(GenericTypeResolver.java:248) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.data.util.ClassTypeInformation.getTypeVariableMap(ClassTypeInformation.java:115) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.util.ClassTypeInformation.getTypeVariableMap(ClassTypeInformation.java:104) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.util.ClassTypeInformation.<init>(ClassTypeInformation.java:93) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:324) ~[na:1.8.0_221]
+	at org.springframework.data.util.ClassTypeInformation.from(ClassTypeInformation.java:71) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.<init>(AbstractRepositoryMetadata.java:63) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.core.support.DefaultRepositoryMetadata.<init>(DefaultRepositoryMetadata.java:49) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.getMetadata(AbstractRepositoryMetadata.java:78) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.getRepositoryConfigurations(RepositoryConfigurationExtensionSupport.java:103) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:149) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:62) ~[spring-boot-autoconfigure-2.4.5.jar:2.4.5]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:396) ~[spring-context-5.3.6.jar:5.3.6]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[na:1.8.0_221]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:395) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:157) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) [spring-boot-2.4.5.jar:2.4.5]
+	at com.yc.hcl.foodstore.FoodstoreApplication.main(FoodstoreApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_221]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: java.lang.ClassNotFoundException: com.yc.hcl.foodstore.food.bean.Resorder
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_221]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[na:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_221]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_221]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_221]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.4.5.jar:2.4.5]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_221]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_221]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_221]
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) ~[na:1.8.0_221]
+	... 45 common frames omitted
+
+2021-05-09 18:15:18.867  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 18:15:18.868  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 18:15:19.136  WARN 11152 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 18:15:19.277  WARN 11152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 18:15:19.416  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 0.562 seconds (JVM running for 2358.669)
+2021-05-09 18:25:36.442  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 18:25:36.442  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 18:25:36.759  WARN 11152 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 18:25:36.950  WARN 11152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 18:25:37.144  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 0.721 seconds (JVM running for 2976.397)
+2021-05-09 18:25:49.943  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 18:25:49.944  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 18:25:50.216  WARN 11152 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 18:25:50.447  WARN 11152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 18:25:50.637  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 0.71 seconds (JVM running for 2989.89)
+2021-05-09 18:25:52.155  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 18:25:52.155  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 18:25:52.483  WARN 11152 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 18:25:52.645  WARN 11152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 18:25:52.780  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 0.643 seconds (JVM running for 2992.032)
+2021-05-09 18:26:20.951  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 18:26:20.951  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 18:26:21.252  WARN 11152 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 18:26:21.418  WARN 11152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 18:26:21.571  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 0.647 seconds (JVM running for 3020.824)
+2021-05-09 18:26:23.121  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 18:26:23.122  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 18:26:23.397  WARN 11152 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 18:26:23.590  WARN 11152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 18:26:23.779  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 0.678 seconds (JVM running for 3023.032)
+2021-05-09 19:11:33.002  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 19:11:33.002  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 19:11:33.286 ERROR 11152 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.TypeNotPresentException: Type com.yc.hcl.foodstore.food.bean.Resorder not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[na:1.8.0_221]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:1.8.0_221]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:1.8.0_221]
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:1.8.0_221]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:1.8.0_221]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:1.8.0_221]
+	at sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:108) ~[na:1.8.0_221]
+	at java.lang.Class.getGenericInterfaces(Class.java:913) ~[na:1.8.0_221]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:502) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.GenericTypeResolver.buildTypeVariableMap(GenericTypeResolver.java:271) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.GenericTypeResolver.getTypeVariableMap(GenericTypeResolver.java:248) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.data.util.ClassTypeInformation.getTypeVariableMap(ClassTypeInformation.java:115) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.util.ClassTypeInformation.getTypeVariableMap(ClassTypeInformation.java:104) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.util.ClassTypeInformation.<init>(ClassTypeInformation.java:93) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:324) ~[na:1.8.0_221]
+	at org.springframework.data.util.ClassTypeInformation.from(ClassTypeInformation.java:71) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.<init>(AbstractRepositoryMetadata.java:63) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.core.support.DefaultRepositoryMetadata.<init>(DefaultRepositoryMetadata.java:49) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.getMetadata(AbstractRepositoryMetadata.java:78) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.getRepositoryConfigurations(RepositoryConfigurationExtensionSupport.java:103) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:149) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:62) ~[spring-boot-autoconfigure-2.4.5.jar:2.4.5]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:396) ~[spring-context-5.3.6.jar:5.3.6]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[na:1.8.0_221]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:395) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:157) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) [spring-boot-2.4.5.jar:2.4.5]
+	at com.yc.hcl.foodstore.FoodstoreApplication.main(FoodstoreApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_221]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: java.lang.ClassNotFoundException: com.yc.hcl.foodstore.food.bean.Resorder
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_221]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[na:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_221]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_221]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_221]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.4.5.jar:2.4.5]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_221]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_221]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_221]
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) ~[na:1.8.0_221]
+	... 45 common frames omitted
+
+2021-05-09 19:15:18.542  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 19:15:18.543  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 19:15:18.755 ERROR 11152 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.TypeNotPresentException: Type com.yc.hcl.foodstore.food.bean.Resorder not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[na:1.8.0_221]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:1.8.0_221]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:1.8.0_221]
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:1.8.0_221]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:1.8.0_221]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:1.8.0_221]
+	at sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:108) ~[na:1.8.0_221]
+	at java.lang.Class.getGenericInterfaces(Class.java:913) ~[na:1.8.0_221]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:502) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.GenericTypeResolver.buildTypeVariableMap(GenericTypeResolver.java:271) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.GenericTypeResolver.getTypeVariableMap(GenericTypeResolver.java:248) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.data.util.ClassTypeInformation.getTypeVariableMap(ClassTypeInformation.java:115) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.util.ClassTypeInformation.getTypeVariableMap(ClassTypeInformation.java:104) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.util.ClassTypeInformation.<init>(ClassTypeInformation.java:93) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:324) ~[na:1.8.0_221]
+	at org.springframework.data.util.ClassTypeInformation.from(ClassTypeInformation.java:71) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.<init>(AbstractRepositoryMetadata.java:63) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.core.support.DefaultRepositoryMetadata.<init>(DefaultRepositoryMetadata.java:49) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.getMetadata(AbstractRepositoryMetadata.java:78) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.getRepositoryConfigurations(RepositoryConfigurationExtensionSupport.java:103) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:149) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:62) ~[spring-boot-autoconfigure-2.4.5.jar:2.4.5]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:396) ~[spring-context-5.3.6.jar:5.3.6]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[na:1.8.0_221]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:395) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:157) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) [spring-boot-2.4.5.jar:2.4.5]
+	at com.yc.hcl.foodstore.FoodstoreApplication.main(FoodstoreApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_221]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: java.lang.ClassNotFoundException: com.yc.hcl.foodstore.food.bean.Resorder
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_221]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[na:1.8.0_221]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_221]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_221]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_221]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.4.5.jar:2.4.5]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_221]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_221]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_221]
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) ~[na:1.8.0_221]
+	... 45 common frames omitted
+
+2021-05-09 19:15:21.217  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 19:15:21.217  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 19:15:21.554  WARN 11152 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 19:15:21.747  WARN 11152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 19:15:21.954  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 0.751 seconds (JVM running for 5961.207)
+2021-05-09 20:51:30.938  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 11152 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 20:51:30.939  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 20:51:31.278  WARN 11152 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 20:51:31.473  WARN 11152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 20:51:31.648  INFO 11152 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 0.734 seconds (JVM running for 11730.901)
+2021-05-09 20:56:17.664  INFO 19272 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 19272 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 20:56:17.668  INFO 19272 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 20:56:18.812  WARN 19272 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 20:56:20.541  WARN 19272 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 20:56:21.140  INFO 19272 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 3.911 seconds (JVM running for 5.145)
+2021-05-09 20:58:47.718  INFO 2232 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 2232 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 20:58:47.721  INFO 2232 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 20:58:48.953  WARN 2232 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 20:58:50.835  WARN 2232 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 20:58:51.407  INFO 2232 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 4.071 seconds (JVM running for 5.252)
+2021-05-09 21:00:45.692  INFO 1696 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 1696 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 21:00:45.696  INFO 1696 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 21:00:47.074  WARN 1696 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 21:00:49.200  WARN 1696 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 21:00:49.788  INFO 1696 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 4.497 seconds (JVM running for 5.679)
+2021-05-09 21:03:29.761  INFO 1696 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 1696 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 21:03:29.761  INFO 1696 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 21:03:30.114  WARN 1696 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 21:03:30.342  WARN 1696 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'resfoodController': Unsatisfied dependency expressed through field 'resorderBiz'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.yc.hcl.foodstore.food.biz.ResorderBiz' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-05-09 21:03:30.399 ERROR 1696 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field resorderBiz in com.yc.hcl.foodstore.food.controller.ResfoodController required a bean of type 'com.yc.hcl.foodstore.food.biz.ResorderBiz' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.yc.hcl.foodstore.food.biz.ResorderBiz' in your configuration.
+
+2021-05-09 21:03:31.860  INFO 1696 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 1696 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 21:03:31.860  INFO 1696 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 21:03:32.160  WARN 1696 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 21:03:32.341  WARN 1696 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 21:03:32.494  INFO 1696 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 0.655 seconds (JVM running for 168.385)
+2021-05-09 21:04:05.933  INFO 10416 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 10416 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 21:04:05.936  INFO 10416 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 21:04:07.430  WARN 10416 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 21:04:09.344  WARN 10416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 21:04:09.878  INFO 10416 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 4.321 seconds (JVM running for 5.382)
+2021-05-09 21:05:24.496  INFO 18680 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Starting FoodstoreApplication using Java 1.8.0_221 on LAPTOP-DJA05F95 with PID 18680 (D:\三期\新三期\0404\springboot\foodstore\target\classes started by hp in D:\三期\新三期\0404\springboot)
+2021-05-09 21:05:24.500  INFO 18680 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : No active profile set, falling back to default profiles: default
+2021-05-09 21:05:25.825  WARN 18680 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-05-09 21:05:27.986  WARN 18680 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-09 21:05:28.586  INFO 18680 --- [restartedMain] c.yc.hcl.foodstore.FoodstoreApplication  : Started FoodstoreApplication in 4.464 seconds (JVM running for 5.556)
+2021-05-09 21:38:03.110  WARN 18680 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m5s875ms45µs).

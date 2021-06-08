@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>小萌神订餐网</title>
+    <!-- 图标 -->
+    <link rel="short icon" href="image/eat0.ico"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+
+<div id="app">
+
+    <div class="head">
+        小萌神订餐网
+        <div class="right">
+            <span class="showlogin" id="showlogin" @click="showLogin(true)" v-if="!this.userflag">登录</span>
+            <span id="exitspan" style="display:none"></span>
+            <span id="" v-if="this.userflag">欢迎您，{{this.username}}<span @click="logout()">退出</span></span>
+        </div>
+    </div>
+    <div class="content">
+        <ul class="allfoods" id="allfoods">
+            <li v-for="food in foods">
+                <h3 @click="showfood(food.fid)">{{food.fname}}</h3>
+                <!--v-bind="'fid'+food.fid"-->
+                <div :id=`fid${food.fid}` class="fooddesc" v-show="food.status">
+                    <img :src=`image/${food.fphoto}` class="foodimg"/>
+                    <article class="foodprice">
+                        <p>菜品描述：{{food.detail}}</p>
+                        <p class="normalprice">原价：￥{{food.normprice}}</p>
+                        <p class="realprice">特价：￥{{food.realprice}}</p>
+                        <p class="buybtn" @click="addCart(food.fid,1)">加入购物车</p>
+                    </article>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!--  <div class="look">浏览记录</div> -->
+    <div class="shoppingcar">
+        <div class="carbag" id="carbag">
+            <p>购物车<span id="del" @click="clearAll()">[清空]</span></p>
+            <table id="bagcontent" cellpadding="0" cellspacing="0">
+                <tr v-for="cartfood in cartfoods">
+                    <td class="bagfname">{{cartfood.food.fname}}</td>
+                    <td class="bagnum">
+                        <input type="button" value="-" @click="addCart(cartfood.food.fid,-1)"/>{{cartfood.num}}<input
+                            type="button"
+                            value="+" @click="addCart(cartfood.food.fid,1)"/>
+                    </td>
+                    <td class="bagprice">{{cartfood.smallCounts}}</td>
+                </tr>
+            </table>
+        </div>
+        <div class="carprice">￥{{cartprice}}</div>
+        <div class="carinfo" v-if="cartfoods.length<=0">购物车是空的</div>
+        <div class="carinfo" v-else @click="showOrder(true)">立即下单</div>
+    </div>
+    <div class="footer">
+        Copyright © 2016 Xiaomengsheng Incorporated Company. All rights reserved.
+        <br/>
+        订餐，就上小萌神订餐网!
+    </div>
+
+    <div class="login" id="login" v-if="loginflag">
+        <span id="unshow" @click="showLogin(false)">X</span>
+        <form name="myform">
+            <table>
+                <tr>
+                    <td class="labname"><label for="username">用户名：</label></td>
+                    <td><input type="text" name="username" placeholder="请输入用户名" v-model="username"
+                               id="username"/></td>
+                </tr>
+                <tr>
+                    <td class="labname"><label for="pwd">密码：</label></td>
+                    <td><input type="password" name="pwd" placeholder="请输入密码" v-model="pwd"
+                               id="pwd"/></td>
+                </tr>
+                <tr>
+                    <td class="labname"><label for="yzm">验证码：</label></td>
+                    <td><input type="text" name="yzm" placeholder="请输入验证码" v-model="yzm"
+                               id="yzm"/></td>
+                    <td><img :src=`${verifyCodeServlet}`
+                             id="yzm_img" @click="replacePic()"/></td>
+                </tr>
+            </table>
+        </form>
+        <input type="button" value="login" class="btn" id="btn" @click="login()"/>
+    </div>
+
+    <!-- 订单信息 -->
+    <div class="login" id="myinfo" v-if="orderflag">
+        <span id="unshowinfo" @click="showOrder(false)">X</span>
+        <form name="forminfo">
+            <table>
+                <tr>
+                    <td class="labname"><label for="address">送货地址:</label></td>
+                    <td><input name="address" type="text" v-model="resorder.address" placeholder="请输入送货地址"
+                               id="address"/></td>
+                </tr>
+                <tr>
+                    <td class="labname"><label for="tel">联系电话:</label></td>
+                    <td><input type="text" id="tel" v-model="resorder.tel" placeholder="请输入联系电话" name="tel"/></td>
+                </tr>
+                <tr>
+                    <td class="labname"><label for="deliverytime">送货时间:</label></td>
+                    <td><input type="text" name="deliverytime" v-model="resorder.deliverytimeString" id="deliverytime"
+                               placeholder="请输入送货时间（默认马上发货,时间格式：yyyy-MM-dd HH:mm）"/></td>
+                </tr>
+                <tr>
+                    <td class="labname"><label for="ps">附言:</label></td>
+                    <td><input type="text" id="ps" v-model="resorder.ps" placeholder="请输入附言" name="ps"/></td>
+                </tr>
+            </table>
+        </form>
+        <input type="button" value="提交" class="btn" id="submit" @click="confirmOrder()">
+    </div>
+</div>
+
+<!--  在网页里面引入javascript    jquery:DOM   大家注意顺序  -->
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/vue.js"></script>
+<script src="js/axios.js"></script>
+<script type="text/javascript">
+    let vm = new Vue({
+        el: "#app",
+        data: {
+            resorder: {
+                address: '',
+                deliverytimeString: '',
+                tel: '',
+                ps: '',
+            },
+            username: '',         //如果登录了，则记录当前登录的用户名
+            pwd: '',
+            yzm: '',
+            orderflag: false,     //送货地址div
+            loginflag: false,     //登录div
+            foods: {},             //系统中的所有菜品
+            userflag: false,
+            cartprice: 0.0,          //购物车的所有商品的总价
+            cartfoods: [],          //购物车中所有的菜品
+            verifyCodeServlet: 'verifyCodeServlet'
+        },
+        mounted: function () {
+            axios.all([checkLogin(), getAllFood(), this.showCartInfo()])
+                .then(axios.spread((d1, d2) => {//d1是checkLogin()的jsonModel，d2是getAllFood()的jsonModel
+                    // 两个请求现在都执行完成
+                    if (d1.data.code == 1) {
+                        var user = d1.data.obj;
+                        //TODO:将登录用户信息显示到界面
+                        this.username = user.username;
+                        this.userflag = true;
+                    }
+                    if (d2.data.code == 1) {
+                        d2.data.obj.forEach((item, index) => {
+                            //item=>food
+                            item.status = false;
+                        });
+                        this.foods = d2.data.obj;
+                    }
+                }));
+        },
+        methods: {
+            replacePic: function () {
+                this.verifyCodeServlet = "verifyCodeServlet?" + Math.random();
+            },
+            showfood: function (fid) {//显示fid对应的商品
+                this.foods.forEach((item, index) => {
+                    // if (fid == item.fid) {
+                    //     item.status = true;
+                    // } else {
+                    //     item.status = false;
+                    // }
+                    item.status = fid == item.fid;
+
+                });
+            },
+            logout: function () {//退出
+                let params = new URLSearchParams();
+                axios.post('logout', params).then(response => {
+                    if (response.data.code == 1) {
+                        this.loginflag = false;
+                        this.userflag = false;
+                        this.username = '';
+                        this.pwd = '';
+                        this.yzm = '';
+                    }
+                });
+            },
+            confirmOrder: function () {
+                let params = new URLSearchParams();
+                params.append('address', this.resorder.address);
+                params.append('ps', this.resorder.ps);
+                params.append('tel', this.resorder.tel);
+                params.append('deliverytimeString', this.resorder.deliverytimeString);
+
+                axios.post('confirmOrder', params).then(response => {
+                    if (response.data.code == 0) {
+                        alert("下单失败，原因：" + response.data.msg);
+                        return;
+                    }
+                    alert("下单成功，静候电话");
+                    this.orderflag = false;
+                    this.cartfoods = [];
+                    this.cartprice = 0.0;
+                });
+            },
+            login: function () {//登录
+                let params = new URLSearchParams();
+                params.append("username", this.username);
+                params.append("pwd", this.pwd);
+                params.append("valcode", this.yzm);
+                axios.post('login', params).then(response => {
+                    if (response.data.code == 0) {
+                        alert("登录失败，原因：" + response.data.msg);
+                        return;
+                    } else {
+                        this.loginflag = false;//登录界面隐藏
+                        this.userflag = true;
+                    }
+                });
+            },
+            showLogin: function (flag) {
+                this.loginflag = flag;
+            },
+            showOrder: function (flag) {
+                //没有登录，则到登录页
+                if (this.username == null || this.username == '') {
+                    alert('请先登录');
+                    return;
+                }
+                //登录了。则显示订单页
+                this.orderflag = flag;
+            },
+            addCart: function (fid, num) {//添加购物车
+                let params = new URLSearchParams();
+                params.append("fid", fid);
+                params.append("num", num);
+                axios.post('orderJson', params).then(response => {
+                    if (response.data.code == 0) {
+                        alert("添加" + fid + "购物车失败 ");
+                        return;
+                    } else {
+                        this.showCartInfo();     //调用显示购物车
+                    }
+                });
+            },
+            clearAll: function () {
+                let params = new URLSearchParams();
+                axios.post('clearAll', params).then(response => {
+                    if (response.data.code == 1) {
+                        this.cartfoods = [];
+                        this.cartprice = 0.0;
+                        //this.showCartInfo();
+                    }
+                });
+            },
+            showCartInfo: function () {
+                let params = new URLSearchParams();
+                axios.post('getCartInfo', params).then(response => {
+                    if (response.data.code == 0) {
+                        return;
+                    }
+                    this.cartfoods = response.data.obj;
+                    this.cartprice = 0.0;
+                    if (this.cartfoods != undefined) {
+                        this.cartfoods.forEach((item, index) => {
+                            this.cartprice += item.smallCount;
+                        });
+                    }
+                });
+            },
+        }
+    });
+
+    //检查登录状态
+    function checkLogin() {
+        return axios.get("checkLogin");
+    }
+
+    //查找所有的菜
+    function getAllFood() {
+        return axios.get("findAllFoods");
+    }
+</script>
+<script>
+    //事件冒泡的阻止：因为shoppingcar是外面的大层，他上面有一个click事件监听，所以carbag是内部的层，它上面也有click事件，这里carbag的click事件会被冒泡
+    //到shoppingcar中捕获
+    //绑定事件
+    $("#carbag,.carinfo").on("click", function (event) {
+        event.stopPropagation();
+    });
+    $(".shoppingcar").on("click", function () {
+        if ($("#carbag").css("bottom") == "-300px") {
+            $("#carbag").css("bottom", "50px");
+        } else {
+            $("#carbag").css("bottom", "-300px");
+        }
+    });
+</script>
+</body>
+</html>

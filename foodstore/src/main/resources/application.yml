@@ -1,0 +1,28 @@
+server:
+  port: 80
+  servlet.session.timeout: 60000
+  servlet.context-path: /food
+
+logging:
+  level:
+    root: warn
+    com.yc: info
+    org.springframework: warn
+  file:
+    path: ./logs
+    name: yc_food.log
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/res?serverTimezone=GMT%2B8
+    username: root
+    password: 232328
+  jpa:
+    show-sql: true
+    database: mysql
+    properties:
+      hibernate:
+        format-sql: true
+swagger:
+  enabled: true
